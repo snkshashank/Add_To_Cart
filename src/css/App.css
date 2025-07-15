@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #ffffff;
+    padding: 12px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    transition: 0.3s;
+}
+
+.navbar-brand:hover {
+    transform: scale(1);
+}
+
+/* Cart Button */
+.btn-outline-primary {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+    color: #ffffff;
+}
+
+/* Cart Badge */
+.cart-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+
+/* Offcanvas Cart */
+.offcanvas {
+    background: white;
+}
+
+.offcanvas-header {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+.offcanvas-body {
+    padding: 15px;
+}

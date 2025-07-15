@@ -1,0 +1,116 @@
+/* Cart Component Styles */
+.cart-container {
+    background-color: #f8f9fa;
+    /* Light background for the cart container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-title {
+    font-size: 20px; /* 1.8rem converted to px */
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+.cart-empty-message {
+    font-size: 15px; /* 1.2rem converted to px */
+    color: #6c757d;
+}
+
+.cart-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cart-item-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cart-item-name {
+    font-size: 16px; /* 1rem converted to px */
+    font-weight: 500;
+    color: #006edc;
+}
+
+.cart-item-actions {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item-actions button {
+    font-size: 14px; /* 0.9rem converted to px */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.cart-item-actions button:hover {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.cart-item-actions input {
+    width: 60px;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 14px; /* 0.9rem converted to px */
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.cart-remove-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.cart-remove-btn:hover {
+    background-color: #c82333;
+}
+
+.cart-total {
+    font-size: 18px; /* 1.2rem converted to px */
+    font-weight: bold;
+    color: #565656;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.cart-remove-btn {
+    background-color: transparent;
+    color: #dc3545;
+    border: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-remove-btn:hover {
+    color: #c82333;
+    background-color: #f8f9fa;
+}
